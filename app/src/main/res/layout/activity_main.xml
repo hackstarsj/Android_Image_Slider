@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        app:auto_cycle="true"
+        app:delay="0"
+        android:id="@+id/slider"
+        app:period="1000"
+        app:error_image="@drawable/bg_grey"
+        app:placeholder="@drawable/bg_grey"
+        app:corner_radius="20"
+        android:layout_height="200dp"/>
+
+</RelativeLayout>
